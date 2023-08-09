@@ -10,9 +10,9 @@ import "@/styles/globals.css";
 
 import Attribution from "@/components/attribution";
 
-import { PlusJakartaSans } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 
-const plusJakartaSans = PlusJakartaSans({
+const plusJakartaSans = Plus_Jakarta_Sans({
   weight: ["500", "800"],
   style: ["normal", "italic"],
   subsets: ["latin"],
