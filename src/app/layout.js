@@ -10,9 +10,14 @@ import "@/styles/globals.css";
 
 import Attribution from "@/components/attribution";
 
-import { Inter } from "next/font/google";
+import { PlusJakartaSans } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const plusJakartaSans = PlusJakartaSans({
+  weight: ["500", "800"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Frontend Mentor | Notifications page",
@@ -22,7 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={plusJakartaSans.className}>
         {children}
         <Attribution />
       </body>
