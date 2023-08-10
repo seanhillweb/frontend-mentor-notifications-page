@@ -11,7 +11,7 @@ export const feedData = [
       href: "/",
       text: "My first tournament today!",
     },
-    unread: true,
+    read: false,
   },
   {
     userName: "Angela Gray",
@@ -21,7 +21,7 @@ export const feedData = [
     },
     timeElapsed: "5m ago",
     content: "followed you",
-    unread: true,
+    read: false,
   },
   {
     userName: "Jacob Thompson",
@@ -35,7 +35,7 @@ export const feedData = [
       href: "/",
       text: "Chess Club",
     },
-    unread: true,
+    read: false,
   },
   {
     userName: "Rizky Hasanuddin",
@@ -47,7 +47,7 @@ export const feedData = [
     content: "sent you a private message",
     message:
       "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
-    unread: false,
+    read: true,
   },
   {
     userName: "Kimberly Smith",
@@ -61,7 +61,7 @@ export const feedData = [
       src: "/image-chess.webp",
       alt: "Young person playing chess",
     },
-    unread: false,
+    read: true,
   },
   {
     userName: "Nathan Peterson",
@@ -75,7 +75,7 @@ export const feedData = [
       href: "/",
       text: "5 end-game strategies to increase your win rate",
     },
-    unread: false,
+    read: true,
   },
   {
     userName: "Anna Kim",
@@ -89,6 +89,6 @@ export const feedData = [
       href: "/",
       text: "Chess Club",
     },
-    unread: false,
+    read: true,
   },
 ];
